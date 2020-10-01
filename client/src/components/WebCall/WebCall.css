@@ -1,0 +1,35 @@
+body,
+html {
+  background-color: #1b2f33;
+  height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.connectionStatus {
+  padding-top: 30px;
+  margin-left: 5%;
+  font-size: 1.5em;
+}
+.subscriber {
+  margin-left: 10%;
+}
+.publisher {
+  float: right;
+  margin-right: 10%;
+}
+.OTPublisherContainer {
+  width: 80vh !important;
+  height: 80vh !important;
+}
+#error {
+  color: red;
+}
+
+.specialHighlightedText {
+  font-family: "Piazzolla", serif;
+  color: #ff9900;
+}
+
+.titleText {
+  font-size: 1.2rem;
+  color: #ff9900;
+}

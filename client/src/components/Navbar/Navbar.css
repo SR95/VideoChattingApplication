@@ -1,0 +1,65 @@
+.navbar-items {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1.2rem;
+}
+.leftSide-navbar {
+  display: flex;
+}
+.navbar-logo {
+  font-family: "Piazzolla", serif;
+  color: #ff9900;
+  justify-self: start;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+
+.button-box {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-button {
+  width: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  text-transform: none;
+}
+.navbar-button:hover {
+  color: #a3a3a3;
+}
+
+.navbar-chatroom-selection {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  text-transform: none;
+}
+.navbar-chatroom-selection:hover {
+  color: #ff9900;
+}
+
+.navbar-signin {
+  height: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  background: #ff9900;
+  border-radius: 500px;
+
+  font-size: 1.1rem;
+  text-transform: none;
+}
+.navbar-signin:hover {
+  color: black;
+  background-color: #a36200;
+}

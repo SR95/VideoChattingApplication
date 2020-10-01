@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body,
+html {
+  background-color: #1b2f33;
+}
+
+/*
+  font-family: 'Piazzolla', serif;
+   background-color: #1b2f33;
+  */

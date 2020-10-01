@@ -1,0 +1,49 @@
+.main-container {
+  height: 76vh;
+  width: 96vw;
+  margin: 2rem;
+  margin-top: 6rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-container {
+  color: #ebebeb;
+  text-align: right;
+
+  margin-right: 1rem;
+  margin-top: 5rem;
+}
+
+.text-title {
+  font-size: 3rem;
+}
+
+.text-subtitle {
+  font-size: 2rem;
+}
+
+.text-body {
+  font-size: 1.5rem;
+  color: #a3a3a3;
+}
+
+.tok-text {
+  font-family: "Piazzolla", serif;
+  color: #ff9900;
+  weight: "bold";
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.sign-up-hyperlink {
+  text-decoration: underline;
+  cursor: pointer;
+}
