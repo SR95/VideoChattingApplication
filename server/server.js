@@ -10,6 +10,12 @@ app.use(bodyParser.json());
 
 var opentok = new OpenTok(process.env.API_KEY, process.env.API_SECRET);
 
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 app.post("/login", (req, res) => {
   const user_username = req.body.username;
   const user_password = req.body.password;
