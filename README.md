@@ -3,7 +3,7 @@
 
 ### A Video Conference Web Application Design Challenge using Vonage's OpenTok API.
 
-**Brief** <br/>
+## Brief
 Design a Video Conference Web Application using OpenTok either as a Full Stack or Front End Developer. <br/>
 Assigned by Gather.
 
