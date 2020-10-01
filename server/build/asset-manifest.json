@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.711c420d.chunk.css",
-    "main.js": "/static/js/main.b8e3c938.chunk.js",
-    "main.js.map": "/static/js/main.b8e3c938.chunk.js.map",
+    "main.css": "/static/css/main.502b6668.chunk.css",
+    "main.js": "/static/js/main.7c9ba1a6.chunk.js",
+    "main.js.map": "/static/js/main.7c9ba1a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f193cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f193cad.js.map",
     "static/js/2.69415baf.chunk.js": "/static/js/2.69415baf.chunk.js",
     "static/js/2.69415baf.chunk.js.map": "/static/js/2.69415baf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc61c86716c3dae7efa08af25e19efe6.js": "/precache-manifest.cc61c86716c3dae7efa08af25e19efe6.js",
+    "precache-manifest.f99a8c7a6bb38f1312bbeff556208b73.js": "/precache-manifest.f99a8c7a6bb38f1312bbeff556208b73.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.711c420d.chunk.css.map": "/static/css/main.711c420d.chunk.css.map",
+    "static/css/main.502b6668.chunk.css.map": "/static/css/main.502b6668.chunk.css.map",
     "static/js/2.69415baf.chunk.js.LICENSE.txt": "/static/js/2.69415baf.chunk.js.LICENSE.txt",
     "static/media/FeelingTokative.jpg": "/static/media/FeelingTokative.6d683396.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7f193cad.js",
     "static/js/2.69415baf.chunk.js",
-    "static/css/main.711c420d.chunk.css",
-    "static/js/main.b8e3c938.chunk.js"
+    "static/css/main.502b6668.chunk.css",
+    "static/js/main.7c9ba1a6.chunk.js"
   ]
 }

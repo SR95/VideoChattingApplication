@@ -5,6 +5,15 @@ const bodyParser = require("body-parser");
 const jwt = require("jwt-simple");
 var OpenTok = require("opentok");
 
+const apiInfo = {
+  API_KEY: "46936794",
+  API_SECRET: "35b549d4a518bdaa4fdf74e572ffb64c4bec148a",
+  SESSION_ID:
+    "2_MX40NjkzNjc5NH5-MTYwMTQxMzM2ODM5MX4yekU2YytHVG5uUnhnbW9vZzRvVC9ZV21-fg",
+  TOKEN:
+    "T1==cGFydG5lcl9pZD00NjkzNjc5NCZzaWc9M2I0YmYyNmFlNjc2MWIzYTU0OTIyOTZmMTgwOTYxMGIzMjhhMmI0MDpzZXNzaW9uX2lkPTJfTVg0ME5qa3pOamM1Tkg1LU1UWXdNVFF4TXpNMk9ETTVNWDR5ZWtVMll5dEhWRzV1VW5obmJXOXZaelJ2VkM5WlYyMS1mZyZjcmVhdGVfdGltZT0xNjAxNDEzMzk2Jm5vbmNlPTAuNzgyMDI0ODU3MjY1MDU1JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE2MDQwMDUzOTUmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0="
+};
+
 const app = express();
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "build")));
@@ -13,7 +22,7 @@ app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
-var opentok = new OpenTok(process.env.API_KEY, process.env.API_SECRET);
+var opentok = new OpenTok(apiInfo.API_KEY, apiInfo.API_SECRET);
 
 app.post("/login", (req, res) => {
   const user_username = req.body.username;
@@ -61,9 +70,9 @@ app.post("/make-session", (req, res) => {
   // Note: Hardcoded values
   // Issue with sessionArray values with timing(?) - uncertain
   res.status(200).send({
-    API_KEY: process.env.API_KEY,
-    SESSION_ID: process.env.SESSION_ID, //sessionArray[sessionArray.length - 1].sessionId,
-    TOKEN: process.env.TOKEN //sessionArray[sessionArray.length - 1].sessionTokens[0]
+    API_KEY: apiInfo.API_KEY,
+    SESSION_ID: apiInfo.SESSION_ID, //sessionArray[sessionArray.length - 1].sessionId,
+    TOKEN: apiInfo.TOKEN //sessionArray[sessionArray.length - 1].sessionTokens[0]
   });
 });
 

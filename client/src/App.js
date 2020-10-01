@@ -10,7 +10,7 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
-import "./styles.css";
+import "./theme.css";
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState("Home");
@@ -38,23 +38,19 @@ export default function App() {
         <Route
           path="/tokcall"
           render={() => (
-            <WebCall
-              apiKey={userSessionDetails.API_KEY}
-              sessionId={userSessionDetails.SESSION_ID}
-              token={userSessionDetails.TOKEN}
-            />
+            <div>
+              {userSessionDetails.API_KEY !== "" && (
+                <WebCall
+                  apiKey={userSessionDetails.API_KEY}
+                  sessionId={userSessionDetails.SESSION_ID}
+                  token={userSessionDetails.TOKEN}
+                />
+              )}
+            </div>
           )}
         />
         <Redirect from="/" to="/home" />
       </Switch>
     </Router>
   );
-}
-
-{
-  /*     <WebCall
-      apiKey={config.API_KEY}
-      sessionId={config.SESSION_ID}
-      token={config.TOKEN}
-    /> */
 }
