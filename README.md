@@ -1,4 +1,4 @@
-"VideoChattingApplication"Coding Challenge
+"VideoChattingApplication" Coding Challenge
 ===========================================
 
 ### A Video Conference Web Application Design Challenge using Vonage's OpenTok API.
